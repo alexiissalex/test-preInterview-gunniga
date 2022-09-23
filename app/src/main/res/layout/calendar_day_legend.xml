@@ -2,55 +2,80 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="?attr/selectableItemBackground"
     tools:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
         android:gravity="center_vertical"
         android:orientation="vertical">
 
+<!--        <TextView-->
+<!--            android:id="@+id/exSevenMonthText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="@color/gray"-->
+<!--            android:textSize="14sp"-->
+<!--            tools:text="Jun" />-->
+
         <TextView
-            android:id="@+id/exSevenMonthText"
-            android:layout_width="match_parent"
+            android:id="@+id/exSevenDayText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:gravity="center"
             android:textColor="@color/gray"
-            android:textSize="14sp"
-            tools:text="Jun" />
+            android:textSize="14dp"
+            tools:text="Mon" />
+
+<!--        <include-->
+<!--            android:id="@+id/legendLayout"-->
+<!--            layout="@layout/calendar_sevenday_legend"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp" />-->
 
         <TextView
             android:id="@+id/exSevenDateText"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="4dp"
             android:fontFamily="sans-serif-medium"
-            android:gravity="center"
-            android:textColor="@color/gray"
-            android:textSize="18sp"
-            tools:text="24" />
-
-        <TextView
-            android:id="@+id/exSevenDayText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="4dp"
             android:gravity="center"
             android:textColor="@color/gray"
             android:textSize="14sp"
-            tools:text="Mon" />
+            tools:text="24" />
+
+        <View
+            android:id="@+id/exSevenSelectedView"
+            android:layout_width="4.5dp"
+            android:layout_height="4.5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/example_3_today_bg" />
+
+<!--    <View-->
+<!--        android:id="@+id/exSevenSelectedView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="3dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:background="@color/example_7_blue" />-->
+
     </LinearLayout>
 
-    <View
-        android:id="@+id/exSevenSelectedView"
-        android:layout_width="match_parent"
-        android:layout_height="6dp"
-        android:layout_gravity="bottom"
-        android:background="@color/example_7_blue" />
+<!--    <View-->
+<!--        android:id="@+id/exSevenSelectedView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="6dp"-->
+<!--        android:layout_gravity="bottom"-->
+<!--        android:background="@color/example_7_blue" />-->
 
 </FrameLayout>
 
