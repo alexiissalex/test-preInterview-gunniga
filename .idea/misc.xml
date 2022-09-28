@@ -7,12 +7,13 @@
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/drawable/example_3_today_bg.xml" value="0.2335" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/activity_dashboard.xml" value="0.22056159420289856" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/calendar_day_layout.xml" value="0.15859375" />
-        <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/calendar_day_legend.xml" value="0.1" />
+        <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/calendar_day_legend.xml" value="0.4" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/calendar_day_weeklayout.xml" value="0.22056159420289856" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/calendar_month_header_layout.xml" value="0.22056159420289856" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/calendar_sevenday_legend.xml" value="0.2965811965811966" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/example_3_today_bg.xml" value="0.123046875" />
-        <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/fragment_dashboard.xml" value="0.22056159420289856" />
+        <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/fragment_dashboard.xml" value="0.2441123188405797" />
+        <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/fragment_lists_of_rent.xml" value="0.2477355072463768" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/fragment_month.xml" value="0.22056159420289856" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/fragment_to_do.xml" value="0.22056159420289856" />
         <entry key="..\:/Kotlin/AgentApp-0.1/app/src/main/res/layout/fragment_week.xml" value="0.22056159420289856" />

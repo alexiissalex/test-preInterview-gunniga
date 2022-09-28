@@ -57,24 +57,24 @@ class DashboardActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController,appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        val weekFragment = WeekFragment()
-        val monthFragment = MonthFragment()
-
-        supportFragmentManager.beginTransaction().apply {
-            replace(R.id.flFragment,weekFragment)
-            commit()
-        }
-        radio_week.setOnClickListener {
-            supportFragmentManager.beginTransaction().apply {
-                replace(R.id.flFragment,weekFragment)
-                commit()
-            }
-        }
-        radio_month.setOnClickListener {
-            supportFragmentManager.beginTransaction().apply {
-                replace(R.id.flFragment,monthFragment)
-                commit()
-            }
-        }
+//        val weekFragment = WeekFragment()
+//        val monthFragment = MonthFragment()
+//
+//        supportFragmentManager.beginTransaction().apply {
+//            replace(R.id.flFragment,weekFragment)
+//            commit()
+//        }
+//        radio_week.setOnClickListener {
+//            supportFragmentManager.beginTransaction().apply {
+//                replace(R.id.flFragment,weekFragment)
+//                commit()
+//            }
+//        }
+//        radio_month.setOnClickListener {
+//            supportFragmentManager.beginTransaction().apply {
+//                replace(R.id.flFragment,monthFragment)
+//                commit()
+//            }
+//        }
     }
 }

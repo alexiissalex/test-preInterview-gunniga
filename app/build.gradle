@@ -36,6 +36,7 @@ android {
 
 dependencies {
     implementation 'com.github.kizitonwose:CalendarView:1.0.4'
+    implementation 'com.github.owl-93.Determinate-Progress-View:release:v1.4.4'
     implementation 'nl.bryanderidder:themed-toggle-button-group:1.4.1'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.1'
