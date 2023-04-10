@@ -23,24 +23,15 @@ fun SumPoint(str: String): String{
             }
         }
         arrKeyAndValue.put(sum,message[x])
-//        if (sumTotal < sum){
-//            sumTotal = sum
-//            valueMax = message[x].lowercase()
-//        }else{
-//            continue
-//        }
     }
 
     for (k in arrKeyAndValue.keys){
-//        println(k)
         if (k>sumTotal){
-//            println("ค่ามากที่สุดตอนนี้คือ ${k}")
             sumTotal = k
         }
     }
     return "=> ${arrKeyAndValue.get(sumTotal)?.lowercase()}"
-//    println("ค่ามากที่สุด ${valueMax}")
-//    return valueMax
+
 }
 fun main(){
     val maxvalue = SumPoint("this is a word")
